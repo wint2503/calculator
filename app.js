@@ -20,35 +20,85 @@ const getdisplay = document.querySelector('#number');
 
 getone.addEventListener('click',function(){
     const getdatas = getone.value;
-    getdisplay.value += getdatas;
+    const num1 = parseInt(getdatas,10)
+    getdisplay.value += num1;
+
+    // console.log(num);
+    // console.log(typeof(num1))
 })
 
 gettwo.addEventListener('click',function(){
     const getdatas = gettwo.value;
+    const num2 = parseInt(getdatas,10)
+    getdisplay.value += num2;
+
+    // console.log(typeof(num));
+})
+
+getthree.addEventListener('click',function(){
+    const getdatas = getthree.value;
+    const num3 = parseInt(getdatas,10)
+    getdisplay.value += num3;
+})
+
+getfour.addEventListener('click',function(){
+    const getdatas = getfour.value;
+    const num4 = parseInt(getdatas,10)
+    getdisplay.value += num4;
+})
+
+getfive.addEventListener('click',function(){
+    const getdatas = getfive.value;
+    const num5 = parseInt(getdatas,10)
+    getdisplay.value += num5;
+})
+
+getsix.addEventListener('click',function(){
+    const getdatas = getsix.value;
+    const num6 = parseInt(getdatas,10)
+    getdisplay.value += num6;
+})
+
+getseven.addEventListener('click',function(){
+    const getdatas = getseven.value;
+    const num7 = parseInt(getdatas,10)
+    getdisplay.value += num7;
+})
+
+geteight.addEventListener('click',function(){
+    const getdatas = geteight.value;
+    const num8 = parseInt(getdatas,10)
+    getdisplay.value += num8;
+})
+
+getnine.addEventListener('click',function(){
+    const getdatas = getnine.value;
+    const num9 = parseInt(getdatas,10)
+    getdisplay.value += num9;
+})
+
+getplus.addEventListener('click',function(){
+    const getdatas = getplus.value;
+    // const plus = parseInt(getdatas,10)
     getdisplay.value += getdatas;
 })
 
-gettwo.addEventListener('click',function(){
-    const getdatas = gettwo.value;
+getequal.addEventListener('click',function(){
+    const getdatas = getequal.value;
+    let equal = parseInt(getdatas, 10)
     getdisplay.value += getdatas;
+
+    plus(a,b);
 })
 
-gettwo.addEventListener('click',function(){
-    const getdatas = gettwo.value;
-    getdisplay.value += getdatas;
-})
+// let a = parseInt(getdisplay.value,10);
+// let b = parseInt(getdisplay.value,10);
+function plus(a,b){
+    let result = a + b;
+    getdisplay.value = result;
 
-gettwo.addEventListener('click',function(){
-    const getdatas = gettwo.value;
-    getdisplay.value += getdatas;
-})
 
-gettwo.addEventListener('click',function(){
-    const getdatas = gettwo.value;
-    getdisplay.value += getdatas;
-})
+    console.log(a),
+    console.log(typeof(b.value));
 
-gettwo.addEventListener('click',function(){
-    const getdatas = gettwo.value;
-    getdisplay.value += getdatas;
-})
+}

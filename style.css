@@ -48,3 +48,7 @@ form .display input{
     box-shadow: none;
     font-size: 45px;
 }
+
+form input.equal{
+    width: 145px;
+}

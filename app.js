@@ -1,98 +1,129 @@
-// const getone = document.querySelector('#one');
-// const gettwo = document.getElementById('two');
-// const getthree = document.getElementById('three');
-// const getfour = document.getElementById('four');
-// const getfive = document.getElementById('five');
-// const getsix = document.getElementById('six');
-// const getseven = document.getElementById('seven');
-// const geteight = document.getElementById('eight');
-// const getnine = document.getElementById('nine');
+const getone = document.querySelector('#one');
+const gettwo = document.getElementById('two');
+const getthree = document.getElementById('three');
+const getfour = document.getElementById('four');
+const getfive = document.getElementById('five');
+const getsix = document.getElementById('six');
+const getseven = document.getElementById('seven');
+const geteight = document.getElementById('eight');
+const getnine = document.getElementById('nine');
+const getzero = document.getElementById('zero');
+const getdbzero = document.getElementById('dbzero');
+const getdot = document.getElementById('dot');
 
-// const getplus = document.getElementById('plus');
-// const getequal = document.getElementById('equal');
-// const getdisplay = document.querySelector('#number');
+const getplus = document.getElementById('plus');
+const getminus = document.getElementById('minus');
+const getmultiply = document.getElementById('multiply');
+const getdivided = document.getElementById('divided'); 
 
-// // const getonevalue = ()=>{
-// //     console.log('hello')
-// // }
-// // getone.addEventListener('click',getonevalue);
+const getequal = document.getElementById('equal');
+const getdisplay = document.querySelector('#number');
+
+const clear = document.getElementById('ac');
+const getdelete = document.getElementById('delete');
+
+// const getonevalue = ()=>{
+//     console.log('hello')
+// }
+// getone.addEventListener('click',getonevalue);
 
 
-// getone.addEventListener('click',function(){
-//     const getdatas = getone.value;
-//     const num1 = parseInt(getdatas,10)
-//     getdisplay.value += num1;
+getone.addEventListener('click',function(){
+    const getdatas = getone.value;
+    // const num1 = parseInt(getdatas,10)
+    getdisplay.value += getdatas;
+})
 
-//     // console.log(num);
-//     // console.log(typeof(num1))
-// })
+gettwo.addEventListener('click',function(){
+    const getdatas = gettwo.value;
+    getdisplay.value += getdatas;
+})
 
-// gettwo.addEventListener('click',function(){
-//     const getdatas = gettwo.value;
-//     const num2 = parseInt(getdatas,10)
-//     getdisplay.value += num2;
+getthree.addEventListener('click',function(){
+    const getdatas = getthree.value;
+    getdisplay.value += getdatas;
+})
 
-//     // console.log(typeof(num));
-// })
+getfour.addEventListener('click',function(){
+    const getdatas = getfour.value;
+    getdisplay.value += getdatas;
+})
 
-// getthree.addEventListener('click',function(){
-//     const getdatas = getthree.value;
-//     const num3 = parseInt(getdatas,10)
-//     getdisplay.value += num3;
-// })
+getfive.addEventListener('click',function(){
+    const getdatas = getfive.value;
+    getdisplay.value += getdatas;
+})
 
-// getfour.addEventListener('click',function(){
-//     const getdatas = getfour.value;
-//     const num4 = parseInt(getdatas,10)
-//     getdisplay.value += num4;
-// })
+getsix.addEventListener('click',function(){
+    const getdatas = getsix.value;
+    getdisplay.value += getdatas;
+})
 
-// getfive.addEventListener('click',function(){
-//     const getdatas = getfive.value;
-//     const num5 = parseInt(getdatas,10)
-//     getdisplay.value += num5;
-// })
+getseven.addEventListener('click',function(){
+    const getdatas = getseven.value;
+    getdisplay.value += getdatas;
+})
 
-// getsix.addEventListener('click',function(){
-//     const getdatas = getsix.value;
-//     const num6 = parseInt(getdatas,10)
-//     getdisplay.value += num6;
-// })
+geteight.addEventListener('click',function(){
+    const getdatas = geteight.value;
+    getdisplay.value += getdatas;
+})
 
-// getseven.addEventListener('click',function(){
-//     const getdatas = getseven.value;
-//     const num7 = parseInt(getdatas,10)
-//     getdisplay.value += num7;
-// })
+getnine.addEventListener('click',function(){
+    const getdatas = getnine.value;
+    getdisplay.value += getdatas;
+})
 
-// geteight.addEventListener('click',function(){
-//     const getdatas = geteight.value;
-//     const num8 = parseInt(getdatas,10)
-//     getdisplay.value += num8;
-// })
+getzero.addEventListener('click',function(){
+    const getdatas = getzero.value;
+    getdisplay.value += getdatas;
+})
 
-// getnine.addEventListener('click',function(){
-//     const getdatas = getnine.value;
-//     const num9 = parseInt(getdatas,10)
-//     getdisplay.value += num9;
-// })
+getdbzero.addEventListener('click',function(){
+    const getdatas = getdbzero.value;
+    getdisplay.value += getdatas;
+})
 
-// getplus.addEventListener('click',function(){
-//     const getdatas = getplus.value;
-//     // const plus = parseInt(getdatas,10)
-//     getdisplay.value += getdatas;
-// })
+getplus.addEventListener('click',function(){
+    const getdatas = getplus.value;
+    getdisplay.value += getdatas;
+})
 
-// getequal.addEventListener('click',function(){
-//     const getdatas = getequal.value;
-//     let equal = parseInt(getdatas, 10)
-//     getdisplay.value += getdatas;
+getminus.addEventListener('click',function(){
+    const getdatas = getminus.value;
+    getdisplay.value += getdatas;
+})
 
-//     plus(a,b);
-// })
+getmultiply.addEventListener('click',function(){
+    const getdatas = getmultiply.value;
+    getdisplay.value += getdatas;
+})
 
-// // let a = parseInt(getdisplay.value,10);
-// // let b = parseInt(getdisplay.value,10);
+getdivided.addEventListener('click',function(){
+    const getdatas = getdivided.value;
+    getdisplay.value += getdatas;
+})
+
+getdot.addEventListener('click',function(){
+    const getdatas = getdot.value;
+    getdisplay.value += getdatas;
+})
+
+getequal.addEventListener('click',function(){ 
+    let equal = eval(getdisplay.value);
+    getdisplay.value = equal;
+})
+
+clear.addEventListener('click', function(){
+    getdisplay.value = '';
+})
+
+getdelete.addEventListener('click',function(){
+    getdisplay.value = getdisplay.value.slice(0,-1);
+})
+
+// let a = parseInt(getdisplay.value,10);
+// let b = parseInt(getdisplay.value,10);
 // function plus(a,b){
 //     let result = a + b;
 //     getdisplay.value = result;
